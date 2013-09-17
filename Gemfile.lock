@@ -1,0 +1,28 @@
+PATH
+  remote: .
+  specs:
+    evil_transform (0.0.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    ansi (1.4.3)
+    coderay (1.0.9)
+    method_source (0.8.2)
+    pry (0.9.12.2)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
+    slop (3.4.6)
+    turn (0.9.6)
+      ansi
+    yard (0.8.7.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  evil_transform!
+  pry
+  turn
+  yard
